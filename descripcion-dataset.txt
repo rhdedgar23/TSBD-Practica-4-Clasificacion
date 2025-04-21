@@ -1,0 +1,34 @@
+### Que describe? ###
+
+Atributos: todos los atributos son categóricos e incluyen:
+
+- atributos binarios
+- atributos nominales de baja y alta cardinalidad
+- atributos ordinales de baja y alta cardinalidad
+- atributos (potencialmente) ciclicos
+
+Clase: la columna "target" es la columna - con valores binarios - que representa la clase. 
+
+Este dataset permite seguir construyendo habilidades dentro del area de Machine Learning al codificar variables categóricas. 
+Este dataset tiene como complejidad adicional la interacción de atributos asi como alguna información faltante. 
+
+
+### Cual es su objetivo? ###
+
+El objetivo de este dataset es predecir la probabilidad [0, 1] de una clase binaria usando solo atributos categóricos. 
+Esto nos da la oportunidad de probar diferentes esquemas de codificación para diferentes algoritmos y comparar su rendimiento. 
+
+
+### Que significan los atributos? ###
+
+Este dataset tiene atributos categóricos únicamente, cada columna con su prefijo indicando el tipo de atributos categóricos:
+- bin_: atributos binarios con dos categorías
+- nom_: atributos nominales que representan categorías sin ningún orden intrínseco 
+- ord_: atributos ordinales que representan categorías con un orden definido. 
+- day y month: atributos cíclicos indicando el dia de la semana y el mes respectivamente.
+
+
+
+ 
+
+
